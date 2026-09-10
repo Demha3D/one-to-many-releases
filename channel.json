@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "product": "One to Many",
+  "repository": "Demha3D/one-to-many-releases",
+  "channel": "stable",
+  "latestReleaseAPI": "https://api.github.com/repos/Demha3D/one-to-many-releases/releases/latest",
+  "platform": "macOS",
+  "architecture": "arm64",
+  "minimumOS": "14.0",
+  "tagFormat": "vMAJOR.MINOR.PATCH+BUILD",
+  "assetNameFormat": "One to Many-MAJOR.MINOR.PATCH-arm64.dmg",
+  "checksum": "GitHub asset digest (sha256)",
+  "installation": "verified download, manual installation"
+}
