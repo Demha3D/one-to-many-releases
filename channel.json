@@ -8,7 +8,7 @@
   "architecture": "arm64",
   "minimumOS": "14.0",
   "tagFormat": "vMAJOR.MINOR.PATCH+BUILD",
-  "assetNameFormat": "One to Many-MAJOR.MINOR.PATCH-arm64.dmg",
+  "assetNameFormat": "One-to-Many-MAJOR.MINOR.PATCH-arm64.dmg",
   "checksum": "GitHub asset digest (sha256)",
   "installation": "verified download, manual installation"
 }
