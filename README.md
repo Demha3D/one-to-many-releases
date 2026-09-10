@@ -4,8 +4,19 @@ Turn a source recording or text into a reviewed content library.
 
 [Download the latest release](https://github.com/Demha3D/one-to-many-releases/releases/latest)
 
-Requires macOS 14 or later and Apple Silicon (M1 or newer). Download the ARM64 DMG, open it, and drag One to Many into Applications. To upgrade, save your edits and quit the app before replacing it, then launch it again. Your local library and saved account remain on your Mac.
+Requires **macOS 14 or later** and **Apple Silicon (M1 or newer)**. Download the ARM64 DMG, open it, and drag One to Many into Applications.
 
-From version 0.1.7, **Check for Updates** checks this repository. Downloads are verified using GitHub's SHA-256 digest, the publisher's Developer ID signature, and Apple notarization. Installation is manual; the app does not replace or restart itself. Earlier versions need the first download from this page.
+## Online updates
 
-This repository contains release information and binary installers only. Application source code and user content are not published here. Platform channel choices create local drafts; they do not connect or publish to social accounts. Online AI and cloud features require their respective configuration and access.
+From version 0.1.7, choose **Check for Updates**, then **Download & verify**. Open the verified installer, save your edits and quit the app. Drag One to Many into Applications, choose **Replace**, and launch the new copy. Your local library and saved account remain on your Mac. Installation is manual; the app does not replace or restart itself.
+
+Downloads are checked against GitHub's SHA-256 digest, the publisher's Developer ID signature and Apple notarization. Each release includes SHA256SUMS.txt.
+
+To try the online update flow, install a baseline first:
+
+- [0.1.7 baseline](https://github.com/Demha3D/one-to-many-releases/releases/tag/v0.1.7%2B8)
+- [0.1.8 baseline](https://github.com/Demha3D/one-to-many-releases/releases/tag/v0.1.8%2B9)
+
+## Repository contents
+
+Release information and binary installers only. Application source code and user content are not published here. Platform channel choices create local drafts; they do not connect or publish to social accounts. Online AI and cloud features require their respective configuration and access.
