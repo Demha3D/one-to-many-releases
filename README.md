@@ -4,20 +4,20 @@ Turn a source recording or text into a reviewed content library.
 
 [Download the latest release](https://github.com/Demha3D/one-to-many-releases/releases/latest)
 
-Requires **macOS 14 or later** and **Apple Silicon (M1 or newer)**. Download the ARM64 DMG, open it, and drag One to Many into Applications.
+Requires **macOS 14 or later** and **Apple Silicon (M1 or newer)**. For a first installation, download the ARM64 DMG, open it, and drag One to Many into Applications.
 
 ## Online updates
 
-From version 0.1.7, choose **Check for Updates**, then **Download & verify**. Open the verified installer, save your edits and quit the app. Drag One to Many into Applications, choose **Replace**, and launch the new copy. Your local library and saved account remain on your Mac. Installation is manual; the app does not replace or restart itself.
+Choose **Check for Updates**, then **Download & verify** to read the release notes and download the verified installer.
 
-From version **0.2.1**, automatic update checks run at launch and every six hours. A new version is announced once; downloading and installation are still your choice. Earlier versions keep their manual Check for Updates action. Save your edits and quit every installed or local copy before replacing the app.
+- **Running 0.2.1 or earlier:** save your edits, quit the app, open the verified DMG and replace One to Many in Applications. Launch the new copy. This one-time manual step enables in-app installation for future releases.
+- **Running 0.2.2 or later:** choose **Install & restart** after downloading. Save editor changes and let active generation and exports finish first. The updater replaces the app and relaunches it; the local library remains on your Mac. Launch the app from a writable Applications location, not from a mounted DMG.
 
-Downloads are checked against GitHub's SHA-256 digest, the publisher's Developer ID signature and Apple notarization. Each release includes SHA256SUMS.txt.
+Automatic update checks run at launch and every six hours from version 0.2.1. A new version is announced once; downloading and installation remain your choice.
 
-To try the online update flow, install a baseline first:
+Downloads are checked against GitHub's SHA-256 digest, the publisher's Developer ID signature and Apple notarization. The in-app installer also requires a matching Ed25519-signed Sparkle feed. Each release includes SHA256SUMS.txt; releases starting at 0.2.2 also include appcast.xml.
 
-- [0.1.7 baseline](https://github.com/Demha3D/one-to-many-releases/releases/tag/v0.1.7%2B8)
-- [0.1.8 baseline](https://github.com/Demha3D/one-to-many-releases/releases/tag/v0.1.8%2B9)
+A local preview can use a separate test library. Those test edits are not automatically merged into the installed app's library.
 
 ## Repository contents
 
