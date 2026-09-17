@@ -10,5 +10,7 @@
   "tagFormat": "vMAJOR.MINOR.PATCH+BUILD",
   "assetNameFormat": "One-to-Many-MAJOR.MINOR.PATCH-arm64.dmg",
   "checksum": "GitHub asset digest (sha256)",
-  "installation": "verified download, manual installation"
+  "installation": "verified download; signed in-app installation from version 0.2.2",
+  "appcast": "https://github.com/Demha3D/one-to-many-releases/releases/latest/download/appcast.xml",
+  "inAppInstallationFrom": "0.2.2"
 }
