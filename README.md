@@ -8,10 +8,10 @@ Requires **macOS 14 or later** and **Apple Silicon (M1 or newer)**. For a first 
 
 ## Online updates
 
-Choose **Check for Updates** to read release notes. Version 0.2.3 and later offers **Download update**, followed by **Restart & update** or **Later**. Later keeps the verified download available after closing the window or restarting the app; the archive is reverified before reuse.
+Choose **Check for Updates** to read release notes. Version 0.2.5 uses a nonmodal Updates window so it does not block the app from quitting during installation.
 
-- **Running 0.2.1 or earlier:** save your edits, quit the app, open the verified DMG and replace One to Many in Applications. Launch the new copy. This one-time manual step enables in-app installation for future releases.
-- **Running 0.2.2:** choose **Download & verify**, then **Install & restart**. **Running 0.2.3 or later:** choose **Download update**, then **Restart & update** when ready. Save editor changes and let active generation and exports finish first. The updater replaces the app and relaunches it; the local library remains on your Mac. Launch the app from a writable Applications location, not from a mounted DMG.
+- **Running 0.2.4 or earlier:** save your edits, quit the app, open the latest signed DMG and replace One to Many in Applications once. Older in-app installers can get stuck waiting for their Updates dialog to close. If the old app will not quit after cancelling installation, close it through macOS Force Quit before replacing it. Saved projects remain in the library on your Mac.
+- **Running 0.2.5 or later:** choose **Download update**, then **Restart & update** when ready, or **Later** to keep the verified download. Save editor changes and let active generation and exports finish first. The updater replaces the app and relaunches it. Launch the app from a writable Applications location, not from a mounted DMG.
 
 Automatic update checks run at launch and every six hours from version 0.2.1. A new version is announced once; downloading and installation remain your choice.
 
